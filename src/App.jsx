@@ -46,7 +46,7 @@ function Header() {
       
       <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shadow-lg overflow-hidden">
         <img 
-          src="public\image.png" 
+          src="\image.png" 
           alt="Smart School Logo"
           className="w-full h-full object-cover"
         />
@@ -181,7 +181,7 @@ function HeroSection() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="public\image.png"
+                src="\image.png"
                 alt="Students learning at Smart School"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
