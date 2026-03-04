@@ -1,0 +1,51 @@
+/* إضافات للـ Admin Panel */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* تحسين المظهر العام */
+.bg-primary {
+  background-color: #1A2B48;
+}
+
+.bg-accent {
+  background-color: #FF6B6B;
+}
+
+.hover\:bg-accent-hover:hover {
+  background-color: #ff5252;
+}
+
+.text-accent {
+  color: #FF6B6B;
+}
+
+/* Scrollbar مخصص */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF6B6B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5252;
+}
